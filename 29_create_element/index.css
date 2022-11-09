@@ -1,0 +1,15 @@
+#head1 {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px black solid;
+    color: red;
+    background-color: azure;
+}
+
+.boxes {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px black solid;
+    color: red;
+    background-color: azure;
+}

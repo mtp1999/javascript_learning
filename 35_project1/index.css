@@ -1,0 +1,109 @@
+/* general styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    text-decoration: none;
+    background-color: rgb(50, 40, 40);
+    color: white;
+}
+
+.btn:hover {
+    background-color: brown;
+}
+
+.display_none {
+    display: none !important;
+    background-color: yellow;
+}
+
+
+/* body */
+
+body {
+    background-color: rgb(50, 40, 40);
+}
+
+
+/* header */
+
+header {
+    margin: 2rem auto 2rem auto;
+    padding: 2rem;
+    width: 60vw;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+header h1 {
+    color: darkred;
+    text-align: center;
+}
+
+
+/* section1 */
+
+#section1 {
+    margin: 2rem auto 2rem auto;
+    padding: 2rem;
+    width: 60vw;
+    border-radius: 1rem;
+    background-color: white;
+}
+
+#add_form,
+#search_form,
+#tasks {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+#add_form h2,
+#search_form h2,
+#tasks h2 {
+    color: darkred;
+}
+
+input[type=text] {
+    width: 80%;
+    margin: 1rem auto 1rem 0;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    border: 0.5px black solid;
+    display: block;
+}
+
+#tasks ul {
+    padding: 1rem;
+}
+
+#tasks ul li {
+    padding: 1rem;
+    border-bottom: 1px black solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+}
+
+#tasks ul li i {
+    color: red;
+}
+
+#tasks ul li i::before {
+    cursor: pointer;
+}

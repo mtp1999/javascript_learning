@@ -1,0 +1,1 @@
+export const variable1 = "Hello world!";

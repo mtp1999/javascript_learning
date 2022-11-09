@@ -1,0 +1,28 @@
+#head1 {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px black solid;
+    color: red;
+    background-color: azure;
+}
+
+.boxes {
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px black solid;
+    color: red;
+    background-color: azure;
+}
+
+.btn {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
+.btn:hover {
+    opacity: 0.5;
+}
